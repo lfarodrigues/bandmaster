@@ -1,0 +1,15 @@
+﻿  SocketConnection.cpp
+C:\Projects\bandmaster\bandmaster-server\olcPGEX_Network.h(991,10): warning C4858: descartando o valor retornado: The 'remove' and 'remove_if' algorithms return the iterator past the last element that should be kept. You need to call container.erase(result, container.end()) afterwards. In C++20, 'std::erase' and 'std::erase_if' are simpler replacements for these two steps.
+  (compilando o arquivo fonte 'SocketConnection.cpp')
+  C:\Projects\bandmaster\bandmaster-server\olcPGEX_Network.h(991,10):
+  o contexto de instanciação do modelo (o mais antigo primeiro) é
+  	C:\Projects\bandmaster\bandmaster-server\SocketConnection.h(6,44):
+  	consulte a referência à instanciação 'olc::net::server_interface<ProtocolHead>' do modelo da classe que está sendo compilada
+  	C:\Projects\bandmaster\bandmaster-server\olcPGEX_Network.h(989,17):
+  	ao compilar a função de membro 'void olc::net::server_interface<ProtocolHead>::OnClientDisconnect(std::shared_ptr<olc::net::connection<T>>)' do modelo da classe
+          with
+          [
+              T=ProtocolHead
+          ]
+  
+  bandmaster-server.vcxproj -> C:\Projects\bandmaster\Debug\bandmaster-server.exe

@@ -1,0 +1,14 @@
+# Ignorar executáveis e arquivos de debug
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+*.elf
+
+# Ignorar arquivos temporários do Visual Studio
+.vs/

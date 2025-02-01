@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{05f129fe-90ee-4ed9-b1bc-8f0bc55f0af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{9834a700-9380-4648-afae-97d69a6ff2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d6b0f1e0-923a-4cfc-b8c8-5a4b9869edd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProtocolAsio.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleDebug.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
